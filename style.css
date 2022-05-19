@@ -1,0 +1,43 @@
+body{font-family: 'Permanent Marker', cursive; text-align: center; background-color: rgb(234,209,161);}
+h1{font-size: 200px;}
+h2{font-size: 100px;}
+h3{font-size: 70px;}
+img{height: 400px;-webkit-filter:blur(10px);
+    transition: .3s ease;}
+img:hover{-webkit-filter:blur(0px);
+    transition: .3s ease;}  
+.circle{border-radius:50%;
+    transition: 1s ease;}
+.right{height:100px;-webkit-filter: blur(0px); position:absolute;top: 610px; right: 300px;border-radius:50%;
+    transition: 1s ease;}
+.left{height:100px;-webkit-filter: blur(0px); position:absolute;top: 610px; left: 300px;border-radius:50%;
+    transition: 1s ease;}
+.left:hover{
+background-color: seashell;
+}
+.right:hover{
+background-color: seashell;
+}
+.mypictures{height: 400px;}
+#email1{
+    background-color: rgb(199,145,20);
+}
+#text2{
+    background-color: rgb(199,145,20);
+}
+#username{
+background-color: rgb(199,145,20);
+border: 10px ridge #e8aa0e;
+}
+#call3{
+    background-color: rgb(199,145,20);
+    
+}
+#message{
+    background-color: rgb(199,145,20);
+    border: 10px ridge #e8aa0e;
+}
+#pretty1{
+    background-color: rgb(199,145,20);
+    border: 10px ridge #e8aa0e;
+}
